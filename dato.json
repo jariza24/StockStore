@@ -1,0 +1,301 @@
+[
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Acetaminofen",
+        "Uso terapeutico": "antipiretico\/ analgesico ",
+        "Dosificacion": "Cada 4- 6 -8  horas",
+        "Presentacion": "Tab 500 mg ",
+        "Precio": 100,
+        "laboratorio": "MK",
+        "Stock": 30
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Acetaminofen",
+        "Uso terapeutico": "antipiretico\/ analgesico ",
+        "Dosificacion": "Cada 4- 6 -8  horas",
+        "Presentacion": "Susp 150mg\/5ml ",
+        "Precio": 12000,
+        "laboratorio": "MK",
+        "Stock": 20
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Acetaminofen",
+        "Uso terapeutico": "antipiretico\/ analgesico ",
+        "Dosificacion": "Cada 4- 6 -8  horas",
+        "Presentacion": "Gotas 100mg\/ml",
+        "Precio": 9600,
+        "laboratorio": "MK",
+        "Stock": 10
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Amoxilina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "Cada 8 - 12 horas",
+        "Presentacion": "Capsula 500 mg ",
+        "Precio": 25100,
+        "laboratorio": "MK",
+        "Stock": 4
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Amoxilina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "Cada 8 - 12 horas",
+        "Presentacion": "Susp. 250mg\/5ml",
+        "Precio": 15000,
+        "laboratorio": "MK",
+        "Stock": 6
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Ampicilina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "cada 6 a 8 horas",
+        "Presentacion": "Susp. 250mg\/5ml",
+        "Precio": 26000,
+        "laboratorio": "MK",
+        "Stock": 7
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Ampicilina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "cada 6 a 8 horas",
+        "Presentacion": "Capsula 500 mg ",
+        "Precio": 45000,
+        "laboratorio": "MK",
+        "Stock": 2
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Ampicilina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "cada 6 a 8 horas",
+        "Presentacion": "Amp 1gramo",
+        "Precio": 5000,
+        "laboratorio": "Mk",
+        "Stock": 2
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Azitromicina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "cada 24 horas",
+        "Presentacion": "tab 500 mg ",
+        "Precio": 54000,
+        "laboratorio": "Mk",
+        "Stock": 3
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Azitromicina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "cada 24 horas",
+        "Presentacion": "Susp 200mg\/5ml",
+        "Precio": 38000,
+        "laboratorio": "MK",
+        "Stock": 3
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Buspirona",
+        "Uso terapeutico": "Ansiolitico",
+        "Dosificacion": "Cada 8 - 12 horas",
+        "Presentacion": "5mg",
+        "Precio": 62500,
+        "laboratorio": "MK",
+        "Stock": 40
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Carbonato de Calcio",
+        "Uso terapeutico": "vitaminas",
+        "Dosificacion": "Cada 24 horas",
+        "Presentacion": "tab 600mg",
+        "Precio": 20000,
+        "laboratorio": "MK",
+        "Stock": 2
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Calcio Plus",
+        "Uso terapeutico": "Vitaminas",
+        "Dosificacion": "Cada dia ",
+        "Presentacion": "caja por 30 sobres",
+        "Precio": 48000,
+        "laboratorio": "MK",
+        "Stock": 10
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Calcitrol",
+        "Uso terapeutico": "vitaminas",
+        "Dosificacion": "cada 48 horas",
+        "Presentacion": "Capsula 0.25mg",
+        "Precio": 5000,
+        "laboratorio": "Mk",
+        "Stock": 10
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Calcitrol",
+        "Uso terapeutico": "Vitaminas",
+        "Dosificacion": "cada 48 horas",
+        "Presentacion": "Capsula 0,5 mg",
+        "Precio": 6000,
+        "laboratorio": "Mk",
+        "Stock": 20
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Diclofenalco",
+        "Uso terapeutico": "analgesico\/ antiespasmodico",
+        "Dosificacion": "Cada  6 -8  horas",
+        "Presentacion": "Tab 50 mg ",
+        "Precio": 56000,
+        "laboratorio": "MK",
+        "Stock": 3
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Diclofenalco",
+        "Uso terapeutico": "analgesico\/ antiespasmodico",
+        "Dosificacion": "Cada  6 -8  horas",
+        "Presentacion": "Amp 75 mg\/3ml",
+        "Precio": 45000,
+        "laboratorio": "MK",
+        "Stock": 4
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Dipirona",
+        "Uso terapeutico": "analgesico\/ antiespasmodico",
+        "Dosificacion": "Cada 6-8-12 horas",
+        "Presentacion": "Amp 1,2,2.5 gr.",
+        "Precio": 56900,
+        "laboratorio": "MK",
+        "Stock": 5
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Dipirona",
+        "Uso terapeutico": "analgesico\/ antiespasmodico",
+        "Dosificacion": "Cada 6-8-12 horas",
+        "Presentacion": "Tab 500 mg ",
+        "Precio": 45600,
+        "laboratorio": "Mk",
+        "Stock": 6
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Eritromicina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "cada 6 a 8 horas",
+        "Presentacion": "tab 500 mg ",
+        "Precio": 45000,
+        "laboratorio": "Mk",
+        "Stock": 3
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Eritromicina",
+        "Uso terapeutico": "Antibiotico",
+        "Dosificacion": "cada 6 a 8 horas",
+        "Presentacion": "Susp 200mg\/5ml",
+        "Precio": 39000,
+        "laboratorio": "MK",
+        "Stock": 4
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Formaterol",
+        "Uso terapeutico": "broncoespasmo ",
+        "Dosificacion": "Cada 12 horas ",
+        "Presentacion": "Inhalador 12 mcg\/pulsación ",
+        "Precio": 22000,
+        "laboratorio": "MK",
+        "Stock": 5
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Hidroclorotiazida",
+        "Uso terapeutico": "Antiedema\/antihipertensivo",
+        "Dosificacion": "Cada 8 - 12 horas",
+        "Presentacion": "tab 12,5mg\/25mg\/50mg",
+        "Precio": 1200,
+        "Stock": 30
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Hierro",
+        "Uso terapeutico": "Suplemento",
+        "Dosificacion": "2 veces por semana ",
+        "Presentacion": "Amp 100mg\/ml",
+        "Precio": 23000,
+        "laboratorio": "MK",
+        "Stock": 3
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Loperamida",
+        "Uso terapeutico": "Disminucion del peristaltismo",
+        "Dosificacion": "Cada 12 horas ",
+        "Presentacion": "Tab 2mg",
+        "Precio": 3000,
+        "laboratorio": "MK",
+        "Stock": 4
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Losartan",
+        "Uso terapeutico": "antihipertensivo",
+        "Dosificacion": "Cada 12 horas ",
+        "Presentacion": "tab 50 y 100 mg",
+        "Precio": 2000,
+        "laboratorio": "MK",
+        "Stock": 20
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Metadona",
+        "Uso terapeutico": "Analgesico\/Antinarcoticos",
+        "Dosificacion": "no pasar mas 40 mg al dia ",
+        "Presentacion": "Compr. de 10-40 mg",
+        "Precio": 23800,
+        "laboratorio": "MK",
+        "Stock": 6
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Naproxeno",
+        "Uso terapeutico": "analgesico\/ antiespasmodico",
+        "Dosificacion": "Cada 6-8-12 horas",
+        "Presentacion": "tab 275- 550 mg",
+        "Precio": 2800,
+        "laboratorio": "MK",
+        "Stock": 5
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Nitroglicerina",
+        "Uso terapeutico": "Vasodilatador",
+        "Dosificacion": "infucion continua",
+        "Presentacion": "Amp 50mg\/10 ml",
+        "Precio": 23000,
+        "laboratorio": "MK",
+        "Stock": 3
+    },
+    {
+        "Compra": "15-oct.-22",
+        "Nombre": "Nitroprusiato",
+        "Uso terapeutico": "Vasodilatador",
+        "Dosificacion": "infusion continua",
+        "Presentacion": "Amp 50mg\/2 ml",
+        "Precio": 24000,
+        "laboratorio": "MK",
+        "Stock": 2
+    }
+]

@@ -1,5 +1,4 @@
 import portada from './img/portada.jpg'
-import logo from './img/logo.png'
 
 function Logueo() {
     return (
@@ -24,7 +23,7 @@ function Logueo() {
                                                 <input type="password" className="form-control" />
                                                 <br />
                                                 <div className=''>
-                                                    <button className="btn btn-primary ">Iniciar Sesion</button>
+                                                    <a href="/app" className="btn btn-primary ">Iniciar Sesion</a>
                                                 </div>
 
                                             </div>
@@ -37,7 +36,7 @@ function Logueo() {
                         <div className="col-lg-6">
                             <div className="masthead-device-mockup ">
                                 <div className="device-wrapper ">
-                                    <img src={portada} style={{ width: '100%', boxShadow: '-1px 11px 30px -9px rgba(0,0,0,0.75)' }} className="border rounded-3" />
+                                    <img src={portada} alt="portada del proyecto" style={{ width: '100%', boxShadow: '-1px 11px 30px -9px rgba(0,0,0,0.75)' }} className="border rounded-3" />
                                 </div>
 
                             </div>
