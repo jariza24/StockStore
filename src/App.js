@@ -4,6 +4,8 @@ import BarraNavbar from './components/BarraNavbar.js';
 import BarraFooter from './components/BarraFooter';
 import Logueo from './components/Logueo';
 import ListarProductos from './components/ListarProductos';
+import AgregarProducto from './components/AgregarProducto.js';
+import EditarProducto from './components/EditarProducto.js';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -25,6 +27,16 @@ function App() {
                   exact
                   path="/app"
                   component={(props) => <ListarProductos {...props} />}
+                />
+                <Route
+                  exact
+                  path="/app/agregarproducto"
+                  component={(props) => <AgregarProducto {...props} />}
+                />
+                <Route
+                  exact
+                  path="/app/editarproducto"
+                  component={(props) => <EditarProducto {...props} />}
                 />
               </Switch>
             </div>
