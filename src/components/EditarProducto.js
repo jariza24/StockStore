@@ -17,12 +17,6 @@ export default class EditarProducto extends Component {
                             <div className='col-8 border border-3 rounded-4' style={{ boxShadow: '-10px 13px 28px -11px rgba(0,102,255,0.58' }}>
                                 <div className="form-wrapper py-2 px-2">
                                     <Form onSubmit>
-                                        <Form.Group controlId="Name">
-                                            <Form.Label>Fecha de Compra</Form.Label>
-                                            <Form.Control
-                                                type="text"
-                                            />
-                                        </Form.Group>
 
                                         <Form.Group controlId="Name">
                                             <Form.Label>Nombre</Form.Label>

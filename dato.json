@@ -80,14 +80,13 @@
         "Stock": 2
     },
     {
-        "Compra": "15-oct.-22",
-        "Nombre": "Azitromicina",
-        "Uso terapeutico": "Antibiotico",
-        "Dosificacion": "cada 24 horas",
-        "Presentacion": "tab 500 mg ",
-        "Precio": 54000,
+        "nombre": "Azitromicina",
+        "uso": "Antibiotico",
+        "dosificacion": "cada 24 horas",
+        "presentacion": "tab 500 mg ",
+        "precio": 54000,
         "laboratorio": "Mk",
-        "Stock": 3
+        "stock": 3
     },
     {
         "Compra": "15-oct.-22",

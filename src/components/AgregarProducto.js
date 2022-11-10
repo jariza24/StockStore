@@ -7,7 +7,6 @@ export default class AgregarProducto extends Component {
 
   constructor(props) {
     super(props);
-    this.onChangeProductoCompra = this.onChangeProductoCompra.bind(this);
     this.onChangeProductoNombre = this.onChangeProductoNombre.bind(this);
     this.onChangeProductoUso = this.onChangeProductoUso.bind(this);
     this.onChangeProductoDosificacion = this.onChangeProductoDosificacion.bind(this);
@@ -17,7 +16,6 @@ export default class AgregarProducto extends Component {
     this.onChangeProductoStock = this.onChangeProductoStock.bind(this);
 
     this.state = {
-      productoCompra: "",
       productoNombre: "",
       productoUso: "",
       productoDosificacion: "",
@@ -28,9 +26,6 @@ export default class AgregarProducto extends Component {
     };
   }
 
-  onChangeProductoCompra(e) {
-    this.setState({ productoCompra: e.target.value });
-  }
 
   onChangeProductoNombre(e) {
     this.setState({ productoNombre: e.target.value });
@@ -63,7 +58,6 @@ export default class AgregarProducto extends Component {
   onSubmit(e) {
     e.preventDefault();
     const productObject = {
-      productoCompra: this.state.productoCompra,
       productoNombre: this.state.productoNombre,
       productoUso: this.state.productoUso,
       productoDosificacion: this.state.productoDosificacion,
@@ -77,7 +71,6 @@ export default class AgregarProducto extends Component {
       .post("http://localhost:4000/products/agregar-producto", productObject)
       .then((res) => console.log(res.data));
     this.setState({
-      productoCompra: "",
       productoNombre: "",
       productoUso: "",
       productoDosificacion: "",
@@ -102,15 +95,6 @@ export default class AgregarProducto extends Component {
               <div className='col-8 border border-4 rounded-4' style={{ boxShadow: '-10px 13px 28px -11px rgba(0,102,255,0.58' }}>
                 <div className="form-wrapper py-2 px-2">
                   <Form onSubmit={this.onSubmit}>
-                    <Form.Group controlId="Name">
-                      <Form.Label>Fecha de Compra</Form.Label>
-                      <Form.Control
-                        type="text"
-                        value={this.state.productoCompra}
-                        onChange={this.onChangeProductoCompra}
-                      />
-                    </Form.Group>
-
                     <Form.Group controlId="Name">
                       <Form.Label>Nombre</Form.Label>
                       <Form.Control

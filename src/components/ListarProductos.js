@@ -20,7 +20,6 @@ export default class ListarProductos extends Component {
                         <table className="table border rounded-4">
                             <thead className="table bg-info">
                                 <tr>
-                                    <th scope="col">Fecha de compra</th>
                                     <th scope="col">Nombre</th>
                                     <th scope="col">Uso</th>
                                     <th scope="col">Dosificación</th>
@@ -33,7 +32,6 @@ export default class ListarProductos extends Component {
                             </thead>
                             <tbody class="">
                                 <tr>
-                                    <td>15-oct-22</td>
                                     <td>Acetaminofen</td>
                                     <td>antipiretico / analgesico</td>
                                     <td>Cada 4- 6 -8  horas</td>
@@ -50,7 +48,6 @@ export default class ListarProductos extends Component {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>15-oct-22</td>
                                     <td>Acetaminofen</td>
                                     <td>antipiretico / analgesico</td>
                                     <td>Cada 4- 6 -8  horas</td>
