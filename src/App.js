@@ -35,7 +35,7 @@ function App() {
                 />
                 <Route
                   exact
-                  path="/app/editarproducto"
+                  path="/app/editarproducto/:id"
                   component={(props) => <EditarProducto {...props} />}
                 />
               </Switch>

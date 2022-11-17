@@ -14,71 +14,75 @@ export default class AgregarProducto extends Component {
     this.onChangeProductoPrecio = this.onChangeProductoPrecio.bind(this);
     this.onChangeProductoLaboratorio = this.onChangeProductoLaboratorio.bind(this);
     this.onChangeProductoStock = this.onChangeProductoStock.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
-      productoNombre: "",
-      productoUso: "",
-      productoDosificacion: "",
-      productoPresentacion: "",
-      productoPrecio: "",
-      productoLaboratorio: "",
-      productoStock: "",
+      nombre: "",
+      uso: "",
+      dosificacion: "",
+      presentacion: "",
+      precio: "",
+      laboratorio: "",
+      stock: "",
     };
   }
 
 
   onChangeProductoNombre(e) {
-    this.setState({ productoNombre: e.target.value });
+    this.setState({ nombre: e.target.value });
   }
 
   onChangeProductoUso(e) {
-    this.setState({ productoUso: e.target.value });
+    this.setState({ uso: e.target.value });
   }
 
   onChangeProductoDosificacion(e) {
-    this.setState({ productoDosificacion: e.target.value });
+    this.setState({ dosificacion: e.target.value });
   }
 
   onChangeProductoPresentacion(e) {
-    this.setState({ productoPresentacion: e.target.value });
+    this.setState({ presentacion: e.target.value });
   }
 
   onChangeProductoPrecio(e) {
-    this.setState({ productoPrecio: e.target.value });
+    this.setState({ precio: e.target.value });
   }
 
   onChangeProductoLaboratorio(e) {
-    this.setState({ productoLaboratorio: e.target.value });
+    this.setState({ laboratorio: e.target.value });
   }
 
   onChangeProductoStock(e) {
-    this.setState({ productoStock: e.target.value });
+    this.setState({ stock: e.target.value });
   }
 
   onSubmit(e) {
     e.preventDefault();
     const productObject = {
-      productoNombre: this.state.productoNombre,
-      productoUso: this.state.productoUso,
-      productoDosificacion: this.state.productoDosificacion,
-      productoPresentacion: this.state.productoPresentacion,
-      productoPrecio: this.state.productoPrecio,
-      productoLaboratorio: this.state.productoLaboratorio,
-      productoStock: this.state.productoStock,
+      nombre: this.state.nombre,
+      uso: this.state.uso,
+      dosificacion: this.state.dosificacion,
+      presentacion: this.state.presentacion,
+      precio: this.state.precio,
+      laboratorio: this.state.laboratorio,
+      stock: this.state.stock,
     };
 
     axios
-      .post("http://localhost:4000/products/agregar-producto", productObject)
-      .then((res) => console.log(res.data));
+      .post("http://localhost:4000/products/create-product", productObject)
+      .then((res) => {
+        console.log(res.data)
+      });
     this.setState({
-      productoNombre: "",
-      productoUso: "",
-      productoDosificacion: "",
-      productoPresentacion: "",
-      productoPrecio: "",
-      productoLaboratorio: "",
-      productoStock: ""
+      nombre: "",
+      uso: "",
+      dosificacion: "",
+      presentacion: "",
+      precio: "",
+      laboratorio: "",
+      stock: ""
     });
+    this.props.history.push("/app");
   }
 
   render() {
@@ -95,65 +99,65 @@ export default class AgregarProducto extends Component {
               <div className='col-8 border border-4 rounded-4' style={{ boxShadow: '-10px 13px 28px -11px rgba(0,102,255,0.58' }}>
                 <div className="form-wrapper py-2 px-2">
                   <Form onSubmit={this.onSubmit}>
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="nombre">
                       <Form.Label>Nombre</Form.Label>
                       <Form.Control
                         type="text"
-                        value={this.state.productoNombre}
+                        value={this.state.nombre}
                         onChange={this.onChangeProductoNombre}
                       />
                     </Form.Group>
 
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="uso">
                       <Form.Label>Uso</Form.Label>
                       <Form.Control
                         type="text"
-                        value={this.state.productoUso}
+                        value={this.state.uso}
                         onChange={this.onChangeProductoUso}
                       />
                     </Form.Group>
 
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="dosificacion">
                       <Form.Label>Dosificación</Form.Label>
                       <Form.Control
                         type="text"
-                        value={this.state.productoDosificacion}
+                        value={this.state.dosificacion}
                         onChange={this.onChangeProductoDosificacion}
                       />
                     </Form.Group>
 
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="presentacion">
                       <Form.Label>Presentación</Form.Label>
                       <Form.Control
                         type="text"
-                        value={this.state.productoPresentacion}
+                        value={this.state.presentacion}
                         onChange={this.onChangeProductoPresentacion}
                       />
                     </Form.Group>
 
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="precio">
                       <Form.Label>Precio</Form.Label>
                       <Form.Control
-                        type="text"
-                        value={this.state.productoPrecio}
+                        type="number"
+                        value={this.state.precio}
                         onChange={this.onChangeProductoPrecio}
                       />
                     </Form.Group>
 
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="laboratorio">
                       <Form.Label>Laboratorio</Form.Label>
                       <Form.Control
                         type="text"
-                        value={this.state.productoLaboratorio}
+                        value={this.state.laboratorio}
                         onChange={this.onChangeProductoLaboratorio}
                       />
                     </Form.Group>
 
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="stock">
                       <Form.Label>Stock</Form.Label>
                       <Form.Control
-                        type="text"
-                        value={this.state.productoStock}
+                        type="number"
+                        value={this.state.stock}
                         onChange={this.onChangeProductoStock}
                       />
                     </Form.Group>

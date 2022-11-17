@@ -7,7 +7,7 @@ export default class Logueo extends Component {
         return (
             <>
                 <header className="masthead pt-3">
-                    <div className="container px-5">
+                    <div className="container px-5 py-3">
                         <div className="row gx-5 align-items-center">
                             <div className="col-lg-6">
                                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
@@ -17,19 +17,14 @@ export default class Logueo extends Component {
                                     <p className="lead fw-normal text-muted mb-5">Nos ocupamos de tu bienestar.</p>
                                     <div className="d-flex flex-column flex-lg-row align-items-center ">
                                         <div className='container d-flex flex-column flex-lg-row px-4'>
-                                            <div className="col-lg-6 border border-4 rounded-4 px-2 py-2 " style={{ boxShadow: '-4px 4px 28px -11px rgba(0,0,0,0.58)' }}>
-                                                <div className="form-group ">
-                                                    <label>Usuario: </label>
-                                                    <input type="text" className="form-control" />
-                                                    <br />
-                                                    <label>Contraseña:</label>
-                                                    <input type="password" className="form-control" />
-                                                    <br />
-                                                    <div className=''>
-                                                        <a href="/app" className="btn btn-primary ">Iniciar Sesion</a>
-                                                    </div>
+                                            <div className="col-lg-3 border border-4 rounded-4  " style={{ boxShadow: '-4px 4px 28px -11px rgba(0,0,0,0.58)' }}>
 
+
+                                                <div className='px-2'>
+                                                    <a href="/app" className="btn btn-primary ">Ingresar</a>
                                                 </div>
+
+
                                             </div>
 
                                         </div>

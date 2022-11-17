@@ -1,7 +1,33 @@
 import React, { Component } from "react";
+import axios from "axios";
+import ProductoTableRow from "./ProductoTableRow";
 
 export default class ListarProductos extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            products: [],
+        };
+    }
 
+    componentDidMount() {
+        axios
+            .get("http://localhost:4000/products/")
+            .then((res) => {
+                this.setState({
+                    products: res.data,
+                });
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+    }
+
+    DataTable() {
+        return this.state.products.map((res, i) => {
+            return <ProductoTableRow obj={res} key={i} />;
+        });
+    }
 
     render() {
         return (
@@ -31,38 +57,7 @@ export default class ListarProductos extends Component {
                                 </tr>
                             </thead>
                             <tbody class="">
-                                <tr>
-                                    <td>Acetaminofen</td>
-                                    <td>antipiretico / analgesico</td>
-                                    <td>Cada 4- 6 -8  horas</td>
-                                    <td>Tab 500 mg</td>
-                                    <td>100</td>
-                                    <td>MK</td>
-                                    <td>30</td>
-                                    <td>
-                                        <div className="btn-group" >
-                                            <a href="/app/editarproducto" className=" edit btn bg-warning btn-sm text-light"
-                                            >Editar</a>
-                                            <a href="/" className=" btn bg-danger btn-sm text-light">Eliminar</a>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Acetaminofen</td>
-                                    <td>antipiretico / analgesico</td>
-                                    <td>Cada 4- 6 -8  horas</td>
-                                    <td>Tab 500 mg</td>
-                                    <td>100</td>
-                                    <td>MK</td>
-                                    <td>30</td>
-                                    <td>
-                                        <div className="btn-group" >
-                                            <a href="/app/editarproducto" className=" edit btn bg-warning btn-sm text-light"
-                                            >Editar</a>
-                                            <a href="/" className=" btn bg-danger btn-sm text-light">Eliminar</a>
-                                        </div>
-                                    </td>
-                                </tr>
+                                {this.DataTable()}
                             </tbody>
                         </table>
                     </div>
